@@ -216,6 +216,10 @@ elif app.platform == "linux":
                                 "linux get_apps(): skipped parsing application file ",
                                 entry.name,
                             )
+        # include apps from ~/bin
+        for entry in os.scandir(f"{Path.home()}/bin"):
+            items[entry.name] = entry.path
+
         return items
 
 elif app.platform == "mac":

@@ -79,8 +79,8 @@ next scratch:
     user.i3wm_show_scratchpad()
 
 # these rely on the user settings for the mod key. see i3wm.py Actions class
-launch: user.i3wm_launch()
-launch <user.text>:
+d menu: user.i3wm_launch()
+d menu <user.text>:
     user.i3wm_launch()
     sleep(100ms)
     insert("{text}")
@@ -93,7 +93,3 @@ new scratch (shell | window):
     sleep(200ms)
     user.i3wm_move("scratchpad")
     user.i3wm_show_scratchpad()
-
-murder:
-    user.deprecate_command("2023-02-04", "murder", "win kill")
-    app.window_close()
