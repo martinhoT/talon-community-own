@@ -90,8 +90,8 @@ launch (shell | terminal) | koopa: user.i3wm_shell()
 new scratch (shell | window):
     user.i3wm_shell()
     sleep(200ms)
-    user.i3msg("move scratchpad")
-    user.i3msg("scratchpad show")
+    user.i3wm_move("scratchpad")
+    user.i3wm_show_scratchpad()
 
 center window:
     user.deprecate_command("2025-11-21", "center window", "(win | window) center")

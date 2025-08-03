@@ -1,0 +1,16 @@
+list: user.system_paths
+hostname: martinho-MS-7B86
+-
+user: /home/martinho
+desktop: /home/martinho/Desktop
+desk: /home/martinho/Desktop
+documents: /home/martinho/Documents
+docks: /home/martinho/Documents
+downloads: /home/martinho/Downloads
+music: /home/martinho/Music
+pictures: /home/martinho/Pictures
+videos: /home/martinho/Videos
+talon home: /home/martinho/.talon
+talon recordings: /home/martinho/.talon/recordings
+talon user: /home/martinho/.talon/user
+home: /home/martinho
