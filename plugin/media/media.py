@@ -5,9 +5,14 @@ mod = Module()
 
 @mod.action_class
 class Actions:
-    def play_pause():
-        """Plays or pauses media"""
+    def play():
+        """Plays media"""
         if app.platform == "windows":
             actions.key("play_pause")
         else:
             actions.key("play")
+
+    def pause():
+        """Pauses media"""
+        actions.key("play_pause")
+    
