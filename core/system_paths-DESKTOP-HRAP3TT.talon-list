@@ -1,0 +1,16 @@
+list: user.system_paths
+hostname: DESKTOP-HRAP3TT
+-
+user: C:\Users\Utilizador
+desktop: C:\Users\Utilizador\Desktop
+desk: C:\Users\Utilizador\Desktop
+documents: C:\Users\Utilizador\Documents
+docks: C:\Users\Utilizador\Documents
+downloads: C:\Users\Utilizador\Downloads
+music: C:\Users\Utilizador\Music
+pictures: C:\Users\Utilizador\Pictures
+videos: C:\Users\Utilizador\Videos
+talon home: C:\Users\Utilizador\AppData\Roaming\talon
+talon recordings: C:\Users\Utilizador\AppData\Roaming\talon\recordings
+talon user: C:\Users\Utilizador\AppData\Roaming\talon\user
+profile: C:\Users\Utilizador
